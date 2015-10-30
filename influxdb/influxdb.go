@@ -2,10 +2,11 @@ package influxdb
 
 import (
 	"fmt"
-	influxClient "github.com/influxdb/influxdb-go"
-	"github.com/rcrowley/go-metrics"
 	"log"
 	"time"
+
+	influxClient "github.com/influxdb/influxdb/client/v2"
+	"github.com/rcrowley/go-metrics"
 )
 
 type Config struct {
